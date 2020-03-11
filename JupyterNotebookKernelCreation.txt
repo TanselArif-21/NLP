@@ -1,0 +1,15 @@
+1- Create a venv
+2- Activate venv
+3- Install jupyter notebook into venv: python -m pip install jupyter 
+4- pip install ipython 
+5- ipython kernel install --user --name=venv
+6- jupyter notebook
+
+
+CREATION
+pip install ipykernel
+python -m ipykernel install --name=<YOUR ENVIRONMENT>
+
+REMOVAL
+jupyter kernelspec list
+jupyter kernelspec uninstall <YOUR ENVIRONMENT>
